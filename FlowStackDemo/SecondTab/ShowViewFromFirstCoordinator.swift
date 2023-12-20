@@ -24,7 +24,7 @@ struct ShowViewFromFirstCoordinator: View {
 
             Spacer()
 
-            FirstTabCoordinator(routes: [.root(.viewAccesedFromSecondTab, embedInNavigationView: true)])
+            FirstTabCoordinator(routes: [.root(.viewAccesedFromSecondTab)])
 
             Spacer()
         }
