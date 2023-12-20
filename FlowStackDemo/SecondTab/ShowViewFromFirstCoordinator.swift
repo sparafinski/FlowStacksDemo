@@ -12,7 +12,7 @@ struct ShowViewFromFirstCoordinator: View {
         VStack {
             ZStack {
                 Rectangle()
-                    .fill(Color.yellow)
+                    .fill(Color.black)
                     .frame(height: 120)
                     .border(.red)
 
@@ -24,7 +24,7 @@ struct ShowViewFromFirstCoordinator: View {
 
             Spacer()
 
-            FirstTabCoordinator(routes: [.root(.viewAccesedFromSecondTab)])
+            FirstTabCoordinator(routes: [.root(.viewAccesedFromSecondTab, embedInNavigationView: false)])
 
             Spacer()
         }

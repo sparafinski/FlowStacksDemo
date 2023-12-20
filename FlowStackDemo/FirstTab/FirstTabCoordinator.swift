@@ -26,7 +26,7 @@ struct FirstTabCoordinator: View {
             case .list:
                 List()
             case .viewAccesedFromSecondTab:
-                AccesedFromSecondCoordinator()
+                ViewAccesedFromSecondCoordinator()
             case .detailsView:
                 DetailsCoordinator()
             }

@@ -8,7 +8,7 @@
 import SwiftUI
 import FlowStacks
 
-struct AccesedFromSecondCoordinator: View {
+struct ViewAccesedFromSecondCoordinator: View {
     @EnvironmentObject private var navigator: FlowNavigator<FirstTabViews>
     let columnGrid = Array(repeating: GridItem(.fixed(90), spacing: 10), count: 3)
 
@@ -16,6 +16,14 @@ struct AccesedFromSecondCoordinator: View {
     var body: some View {
         ScrollView {
             VStack {
+                // navigator on this cell works fine
+                Text("That's the same cell that is showed in the list link below ")
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal)
+                Cell()
+                    .frame(width: 100)
+
+                // navigator to this view also works fine BUT navigators inside it doesn't work when called from SecondTab
                 Button(action: {
                     navigator.push(.first)
                 }, label: {
@@ -28,5 +36,5 @@ struct AccesedFromSecondCoordinator: View {
 }
 
 #Preview {
-    AccesedFromSecondCoordinator()
+    ViewAccesedFromSecondCoordinator()
 }

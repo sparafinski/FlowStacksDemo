@@ -17,7 +17,7 @@
 		68B8EB0D2B334F6F0048471C /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EB0C2B334F6F0048471C /* First.swift */; };
 		68B8EB0F2B334F7C0048471C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EB0E2B334F7C0048471C /* List.swift */; };
 		68B8EB172B3350DB0048471C /* ShowViewFromFirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EB162B3350DB0048471C /* ShowViewFromFirstCoordinator.swift */; };
-		68B8EB1B2B3355830048471C /* AccesedFromSecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EB1A2B3355830048471C /* AccesedFromSecondCoordinator.swift */; };
+		68B8EB1B2B3355830048471C /* ViewAccesedFromSecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EB1A2B3355830048471C /* ViewAccesedFromSecondCoordinator.swift */; };
 		68B8EB212B3356F20048471C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EB202B3356F20048471C /* Cell.swift */; };
 		68B8EB232B33570A0048471C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EB222B33570A0048471C /* DetailsView.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +34,7 @@
 		68B8EB0C2B334F6F0048471C /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
 		68B8EB0E2B334F7C0048471C /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		68B8EB162B3350DB0048471C /* ShowViewFromFirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewFromFirstCoordinator.swift; sourceTree = "<group>"; };
-		68B8EB1A2B3355830048471C /* AccesedFromSecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccesedFromSecondCoordinator.swift; sourceTree = "<group>"; };
+		68B8EB1A2B3355830048471C /* ViewAccesedFromSecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAccesedFromSecondCoordinator.swift; sourceTree = "<group>"; };
 		68B8EB202B3356F20048471C /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		68B8EB222B33570A0048471C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,7 +96,7 @@
 				68B8EB062B334F030048471C /* FirstTabCoordinator.swift */,
 				68B8EB0C2B334F6F0048471C /* First.swift */,
 				68B8EB0E2B334F7C0048471C /* List.swift */,
-				68B8EB1A2B3355830048471C /* AccesedFromSecondCoordinator.swift */,
+				68B8EB1A2B3355830048471C /* ViewAccesedFromSecondCoordinator.swift */,
 			);
 			path = FirstTab;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 				68B8EB0F2B334F7C0048471C /* List.swift in Sources */,
 				68B8EB072B334F030048471C /* FirstTabCoordinator.swift in Sources */,
 				68B8EB0D2B334F6F0048471C /* First.swift in Sources */,
-				68B8EB1B2B3355830048471C /* AccesedFromSecondCoordinator.swift in Sources */,
+				68B8EB1B2B3355830048471C /* ViewAccesedFromSecondCoordinator.swift in Sources */,
 				68B8EAF52B334E360048471C /* FlowStackDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
